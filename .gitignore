@@ -88,3 +88,8 @@ desktop.ini
 *.pfx
 oauth-private.key
 oauth-public.key
+
+# Interni dokumenti / AI kontekst (ostaju lokalno, ne idu na git)
+/CLAUDE.md
+/PROGRESS.md
+/ProjectInstructions.txt
