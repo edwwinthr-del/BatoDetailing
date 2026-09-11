@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Policies;
+
+use App\Models\Appointment;
+use App\Models\User;
+
+class AppointmentPolicy
+{
+    public function view(User $user, Appointment $appointment): bool
+    {
+        return $user->id === $appointment->user_id || $user->isAdmin();
+    }
+
+    public function cancel(User $user, Appointment $appointment): bool
+    {
+        return $user->id === $appointment->user_id && $appointment->isCancellable();
+    }
+
+    public function review(User $user, Appointment $appointment): bool
+    {
+        return $user->id === $appointment->user_id && $appointment->isReviewable();
+    }
+}
