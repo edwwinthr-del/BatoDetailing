@@ -316,5 +316,27 @@
     "Thank you for choosing BatoDetailing. Your invoice :number is attached.": "Hvala što ste izabrali BatoDetailing. Vaša faktura :number je u prilogu.",
     "View invoices": "Pogledaj fakture",
     "Points earned for appointment #:id": "Poeni zarađeni za termin #:id",
-    "Points redeemed on appointment #:id": "Poeni iskorišćeni za termin #:id"
+    "Points redeemed on appointment #:id": "Poeni iskorišćeni za termin #:id",
+
+    "Work queue": "Red poslova",
+    "Active jobs": "Aktivni poslovi",
+    "All appointments": "Svi termini",
+    "No jobs in the queue right now.": "Trenutno nema poslova u redu.",
+    "Open": "Otvori",
+    "Job": "Posao",
+    "Customer notes": "Napomene klijenta",
+    "Vehicle notes": "Napomene o vozilu",
+    "Update job status": "Ažuriraj status posla",
+    "Mark the job In progress when you start, Completed when you finish (this sends the invoice to the customer), or Cancelled if it cannot be done.": "Označite posao kao U toku kada počnete, Završeno kada završite (klijentu se šalje faktura), ili Otkazano ako ne može da se obavi.",
+    "Start job": "Započni posao",
+    "Finish job": "Završi posao",
+    "Cancel job": "Otkaži posao",
+    "Finish this job? The invoice will be generated and emailed to the customer.": "Završiti ovaj posao? Faktura će biti generisana i poslata klijentu.",
+    "Cancel this job?": "Otkazati ovaj posao?",
+    "Internal comments": "Interni komentari",
+    "Visible to staff only — the customer cannot see these.": "Vidljivo samo zaposlenima — klijent ovo ne vidi.",
+    "e.g. Heavy scratches on rear bumper, customer informed...": "npr. Duboke ogrebotine na zadnjem braniku, klijent obavešten...",
+    "Add comment": "Dodaj komentar",
+    "Comment added.": "Komentar je dodat.",
+    "No comments yet.": "Još uvek nema komentara."
 }
